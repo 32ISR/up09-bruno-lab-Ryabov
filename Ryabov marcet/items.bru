@@ -1,0 +1,18 @@
+meta {
+  name: items
+  type: http
+  seq: 5
+}
+
+get {
+  url: https://api.kitek-pg.ru/api/marketplace/items
+  body: none
+  auth: none
+}
+
+body:json {
+  {
+    "username": "testuser",
+    "password": "password123"
+  }
+}
